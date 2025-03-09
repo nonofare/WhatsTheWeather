@@ -24,7 +24,7 @@ class OpenWeatherClient:
                     "q": city,
                     "appid": self.api_key,
                     "units": "metric",
-                    "lang": "us"
+                    "lang": "en"
                 },
                 timeout=10
             )
